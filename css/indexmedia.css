@@ -1,0 +1,187 @@
+@media screen and (max-width: 800px) {
+    header
+    {
+      padding: 20px 40px;
+      z-index: 10000;
+    }
+    .toggleMenu.active
+    {
+    
+      position: fixed;
+      top: 40px;
+      left: 40px;
+    }
+  
+   
+      header .logo
+      {
+        position: relative;
+        max-width: 60px;
+      }
+      header ul 
+      {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        z-index: 1;
+        flex-direction: column;
+        
+        justify-content: center;
+        transition: 0.2s;
+        visibility: hidden;
+        opacity: 0;
+        text-align: initial;
+        padding: 135px;
+    }
+  
+   
+  
+    header ul li a 
+    {
+      display: inline-block;
+      font-weight: 400;
+      margin-left: 0;
+      text-decoration: none;
+      font-size: 2em;
+      margin: 10px 0px;
+  
+          }
+    header ul li a:hover
+    {
+      color:#081538
+    }
+    .toggleMenu
+    {
+      visibility: visible;
+      opacity: 1;
+    }
+  
+  
+    .container span {
+      
+        letter-spacing: 2px;
+        font-size: 1.5em;
+    }
+    .container .titulo
+    
+    {
+        font-size: 1.5em;
+    }
+    .section3 .row{
+        display: block;
+    }
+
+    .section3 .row .col-2 {
+        width: 100%;
+        
+        margin: 10px 10px 10px 10px;
+    }
+    .section4 .row {
+        width: 100%;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    .section4 .row .col-1, .col-2, .col-3, .col-4 {
+        margin: 0px;
+    }
+    .section5 {
+        
+        display: block;
+    }
+    .tittle2 {
+        position: relative;
+        display: flow-root;
+    }
+
+    .tittle2 .caja1,.caja2 {
+        width: 100%;
+        background: #fff;
+        padding: 10px;
+       margin: 0px;
+        box-shadow: 0px 5px 11px rgb(0,0,0,.5);
+    }
+    .tittle2 .boliviaimg {
+        align-content: center;
+        width: auto;
+        height: 400px;
+    }
+
+    .banner .imagen2 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .tittle2 .caja2 {
+        width: 100%;
+        background: #fff;
+        padding: 10px;
+       margin: 0px;
+        box-shadow: 0px 5px 11px rgb(0,0,0,.5);
+    }
+    .tittle2 .caja2 .botones {
+        display: grid;
+        padding: 0px;
+        align-content: center;
+        align-items: center;
+    }
+    .galeria .row {
+        display: block;
+        box-shadow: 0px 0px 4px rgb(0,0,0,.5);
+    }
+
+
+
+    .galeria .row .col-1 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .galeria .row .col-2 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .galeria .row .col-3 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .galeria .row .col-4 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    footer .row {
+        display: block;
+        margin: 0px;
+    }
+
+    footer .row .col-1 {
+        margin: 5px 30px 10px 0px;
+        width: 100%;
+    }
+    footer .row .col-2 {
+        margin: 5px 30px 10px 0px;
+        width: 100%;
+    }
+    footer .row .col-3 {
+        margin: 5px 30px 10px 0px;
+        width: 100%;
+    }
+    footer .row .col-4 {
+        margin: 5px 30px 10px 0px;
+        width: 100%;
+    }
+  
+  
+  
+}
+  
+  

@@ -124,11 +124,25 @@
        margin: 0px;
         box-shadow: 0px 5px 11px rgb(0,0,0,.5);
     }
+   
+
+
     .tittle2 .caja2 .botones {
         display: grid;
         padding: 0px;
         align-content: center;
         align-items: center;
+        
+
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    .tittle2 .caja2 button 
+    {
+        margin:0px 0px 10px 0px;
+        width: 100%;
+        font-size: 1.5em;
     }
     .galeria .row {
         display: block;

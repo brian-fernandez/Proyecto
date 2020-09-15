@@ -36,6 +36,11 @@
         background-color: #ffffff;
         text-decoration: none;
     }
+
+    .buttomtop
+    {
+        left: 85% !important;
+    }
 }
 
 
@@ -47,6 +52,11 @@
 
 
 @media screen and (max-width: 800px) {
+
+    .buttomtop
+    {
+        left: 90%;
+    }
     header
     {
       padding: 20px 40px;

@@ -25,6 +25,27 @@ font-family: 'Poppins', sans-serif;
 
 /* -- seccion del header  */
 
+.buttomtop {
+    border: 1px solid black;
+    padding: 5px 15px;
+    font-size: 1.5em;
+    position: fixed;
+    z-index: 1;
+    display: block;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-family: 'Poppins';
+    border-radius: 50px;
+    color: black;
+    left: 95%;
+    top:90%;
+}
+.buttomtop:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+
 section{
     position: relative;
     width: 100%;
@@ -449,17 +470,19 @@ transform: rotate(180deg);
 
 .section4 .row .box
 {
-    position: relative;
-    width: 100%;
-    padding: 40px;
-    background: #fff;
-    box-shadow: 0 5px 15px rgb(0,0,0,.3);
-    border-radius: 4px;
-    margin: 20px;
-    box-sizing: border-box;
-    overflow: hidden;
-    text-align: center;
+    
+        position: relative;
+        width: 100%;
+        padding: 40px;
+        background: #fff;
+        box-shadow: 0 5px 15px rgb(0,0,0,.3);
+        border-radius: 4px;
+        margin: 20px 20px 20px 0px;
+        box-sizing: border-box;
+        overflow: hidden;
+        text-align: center;
 }
+
 .section4 .row .box .icon{
     position: absolute;
     

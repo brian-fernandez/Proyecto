@@ -347,8 +347,9 @@ transform: rotate(180deg);
 .section3 .row .col-1,.col-2
 {
     width: 100%;
-    padding: 20px;
+    padding: 50px;
 }
+
 
 
 .section3 .titulo
@@ -414,18 +415,42 @@ transform: rotate(180deg);
     justify-content: space-between;
 }
 
-.section4 .row .col-1,.col-2,.col-3
+.section4 .row .col-1, .col-2, .col-3
 {
     width: 30%;
+    margin: 0px;
 }
-.section4 .row .col-4,.col-5,.col-6
+.section4 .row  .col-2
 {
     width: 30%;
+    margin: 0px;
 }
+.section4 .row .col-3
+{
+    width: 30%;
+    margin: 0px;
+}
+.section4 .row .col-4
+{
+    width: 30%;
+    margin:0px;
+}
+
+.section4 .row  .col-5
+{
+    width: 30%;
+    margin:0px;
+}
+.section4 .row .col-6
+{
+    width: 30%;
+    margin:0px;
+}
+
 .section4 .row .box
 {
     position: relative;
-    width: 350px;
+    width: 100%;
     padding: 40px;
     background: #fff;
     box-shadow: 0 5px 15px rgb(0,0,0,.3);

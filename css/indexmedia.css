@@ -24,6 +24,18 @@
         width: auto;
         margin: 0px 50px !important;
     }
+
+    .botones-registro a {
+        border-radius: 50px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 16px;
+        padding-left: 20px;
+        fill: #0984e3;
+        color: #0984e3;
+        background-color: #ffffff;
+        text-decoration: none;
+    }
 }
 
 

@@ -58,6 +58,12 @@
         padding: 5px 5px;
         width: 100%;
     }
+
+    .section4 .titulo-centralizado h1 {
+        font-weight: 400;
+        font-size: 20px;
+        margin: 20px;
+    }
 }
 
 

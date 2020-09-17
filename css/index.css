@@ -828,7 +828,65 @@ border: 1px solid black;
 }
 /*  fin de redes sosciales*/ 
 
+/* Videos galeria*/
 
+.galeria-videos
+{
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+.galeria-videos .titulo-centralizado-videos
+{
+padding: 10px 50px;
+
+}
+.galeria-videos .titulo-centralizado-videos h1
+{
+
+border-left:10px solid #55acee;
+color: white;
+font-family: 'Poppins';
+font-weight: 800;
+font-size: 2em;
+}
+.galeria-videos .row 
+{
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    background: rgb(17, 17, 17);
+}
+.galeria-videos .row .col-1
+{
+    width: 50%;
+    padding: 10px 50px;
+    
+    
+}
+.galeria-videos .row .col-1 h1{
+    color: #55acee;
+}
+.galeria-videos .row .col-1 p
+{
+    width: 100%;
+    
+    text-align: justify;
+    color: white;
+
+}
+.galeria-videos .row .col-2
+{
+    width: 50%;
+    padding: 0px;
+}
+.galeria-videos .row .col-2 video
+{
+    width: 100%;
+
+}
+/* fin videos galeria*/
 
 
 

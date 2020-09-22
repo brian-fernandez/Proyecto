@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesion</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href=".css">
+    
+    <link rel="stylesheet" href="medialogin.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/b7216b596768a00970f08dbbd187f038.png" type="image/x-icon">
+
 </head>
+
 <body>
     <a href="#logo1" class="buttomtop"> ^ </a>
     <section class="sec">
 
 
         <header>
-            <a id="logo1" href="" class="logo"> <strong style="font-size: 40px;"> Donar Plasma </strong>
-                <img style="width:50px;" src="img/b7216b596768a00970f08dbbd187f038.png" alt=""></a>
+            <a id="logo1" href="/index.html" class="logo"> <strong style="font-size: 40px;"> Donar Plasma </strong>
+                <img style="width:50px; " src="img/b7216b596768a00970f08dbbd187f038.png" alt=""></a>
             <div class="toggleMenu" onclick="menuToogle()"></div>
 
 
@@ -41,19 +46,26 @@
 
 
         <div class="container">
-            <h1 class="titulo"> <span>Se un superhéroe sin capa</span> <br> Donar plasma hiperinmune puede salvar hasta
-                3 vidas. Esta plataforma es Gratuita.</h1>
+            <h1 class="titulo"> <span>INICIAR SESION</span> <br>Para ver tus registros, editar y dar de baja un
+                registro.</h1>
             <br>
-            <div class="botones-registro">
-                <a href="">Registrarse como donante</a>
 
-                <br>
-
-                <br>
-                <br>
-                <a href="enlaces/LoginYregistro/login.html">Inicia Sesion</a>
-            </div>
-
+          <div class="container-login">
+            
+               
+                
+                    <div class="container-login">
+                        <form action="">
+                            <input type="text" name="" placeholder="Correo">
+                            <input type="password" name="" placeholder="Contrasela">
+                            <a href="">Olvidaste tu Contraseña?</a>
+                            <br>
+                            <input type="submit" value="Iniciar">
+                        </form>
+                    </div>
+               
+          
+          </div>
         </div>
 
 
@@ -62,5 +74,70 @@
 
 
     </section>
+
+    <script>
+        function menuToogle() {
+            const menuToogle = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            menuToogle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+        function vervideo() {
+            const trailer = document.querySelector(".trailer");
+            trailer.classList.toggle("active");
+
+        }
+
+
+
+
+    </script>
+    <footer>
+        <div class="row">
+            <div class="col-1">
+                <img style="width:100px;" src="img/b7216b596768a00970f08dbbd187f038.png" alt="">
+                <p>#DONAR PLASMA</p>
+            </div>
+            <div class="col-2">
+
+
+                <h3>Menu de navegacion</h3>
+                <ul class="navigation">
+
+
+                    <li><a href="">Inicio</a></li>
+
+
+                    <li><a href="">Donar Plasma</a></li>
+                    <li><a href="">Lista de espera</a></li>
+                    <li><a href="">Numeros de emergencias</a></li>
+
+                </ul>
+            </div>
+            <div class="col-3">
+
+
+                <p>
+                    El tráfico de plasma hiperinmune está prohibido en el mundo y en Bolivia, por lo que es penado por
+                    Ley.
+                    Si ud. ve alguna actividad sospechosa contactenos inmediatamente.
+                </p>
+                <br>
+                <div class="botones-registro">
+                    <a href="">Leer aviso general</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="img/logo_upds.png" alt="">
+                <p>Estudiante: Brian fernandez Mercado <br>
+                    Carrera: Ingeneria de sistemas <br>
+                    Materia: Tegnologia Web I <br>
+                    Fecha: 09/09/2020 <br>
+                    Derechos reservados </p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

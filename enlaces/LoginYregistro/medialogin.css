@@ -1,0 +1,335 @@
+@media screen and (max-width: 420px)
+{
+    .section4 .row .col-1 {
+        width: auto;
+        margin: 0px 50px !important;
+    }
+    .section4 .row .col-2 {
+        width: auto;
+        margin: 0px 50px !important;
+    }
+    .section4 .row .col-3 {
+        width: auto;
+        margin: 0px 50px !important;
+    }
+    .section4 .row .col-4 {
+        width: auto;
+        margin: 0px 50px !important;
+    }
+    .section4 .row .col-5 {
+        width: auto;
+        margin: 0px 50px !important;
+    }
+    .section4 .row .col-6 {
+        width: auto;
+        margin: 0px 50px !important;
+    }
+
+    .botones-registro a {
+        border-radius: 50px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 16px;
+        padding-left: 20px;
+        fill: #0984e3;
+        color: #0984e3;
+        background-color: #ffffff;
+        text-decoration: none;
+    }
+
+    .buttomtop
+    {
+        left: 85% !important;
+    }
+
+
+    .galeria-videos .row 
+    {
+        display: block;
+    }
+    .galeria-videos .row .col-1
+    {
+        padding: 0px 10px;
+        width: 100%;
+    }
+    .galeria-videos .row .col-2
+    {
+        margin: 0px;
+        padding: 5px 5px;
+        width: 100%;
+    }
+
+    .section4 .titulo-centralizado h1 {
+        font-weight: 400;
+        font-size: 20px;
+        margin: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .buttomtop
+    {
+        left: 90%;
+    }
+    header
+    {
+      padding: 20px 40px;
+      z-index: 10000;
+    }
+    .toggleMenu.active
+    {
+    
+      position: fixed;
+      top: 40px;
+      left: 40px;
+    }
+  
+   
+      header .logo
+      {
+        position: relative;
+        max-width: 60px;
+      }
+      header ul 
+      {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        z-index: 1;
+        flex-direction: column;
+        
+        justify-content: center;
+        transition: 0.2s;
+        visibility: hidden;
+        opacity: 0;
+        text-align: initial;
+        padding: 135px;
+    }
+  
+   
+  
+    header ul li a 
+    {
+      display: inline-block;
+      font-weight: 400;
+      margin-left: 0;
+      text-decoration: none;
+      font-size: 2em;
+      margin: 10px 0px;
+  
+          }
+    header ul li a:hover
+    {
+      color:#081538
+    }
+    .toggleMenu
+    {
+      visibility: visible;
+      opacity: 1;
+    }
+  
+  
+    .container span {
+      
+        letter-spacing: 2px;
+        font-size: 1.5em;
+    }
+    .container .titulo
+    
+    {
+        font-size: 1.5em;
+    }
+    .section3 .row{
+        display: block;
+    }
+
+    .section3 .row .col-2 {
+        width: 100%;
+        
+        margin: 10px 10px 10px 10px;
+    }
+    .section4 .row {
+        width: 100%;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    .section4 .row .col-1 {
+        width: auto;
+    margin: 0px 120px;
+    }
+    .section4 .row .col-2 {
+        width: auto;
+    margin: 0px 120px;
+    }
+    .section4 .row .col-3 {
+        width: auto;
+    margin: 0px 120px;
+    }
+    .section4 .row .col-4 {
+        width: auto;
+    margin: 0px 120px;
+    }
+    .section4 .row .col-5 {
+        width: auto;
+    margin: 0px 120px;
+    }
+    .section4 .row .col-6 {
+        width: auto;
+    margin: 0px 120px;
+    }
+
+    .section5 {
+        
+        display: block;
+    }
+    .tittle2 {
+        position: relative;
+        display: flow-root;
+    }
+
+    .tittle2 .caja1,.caja2 {
+        width: 100%;
+        background: #fff;
+        padding: 10px;
+       margin: 0px;
+        box-shadow: 0px 5px 11px rgb(0,0,0,.5);
+    }
+    .tittle2 .boliviaimg {
+        align-content: center;
+        width: 100%;
+        height: 400px;
+    }
+
+    .banner .imagen2 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .tittle2 .caja2 {
+        width: 100%;
+        background: #fff;
+        padding: 10px;
+       margin: 0px;
+        box-shadow: 0px 5px 11px rgb(0,0,0,.5);
+    }
+   
+
+
+    .tittle2 .caja2 .botones {
+        display: grid;
+        padding: 0px;
+        align-content: center;
+        align-items: center;
+        
+
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    .tittle2 .caja2 button 
+    {
+        margin:0px 0px 10px 0px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+
+
+    .galeria-videos .row 
+    {
+        display: block;
+    }
+    .galeria-videos .row .col-1
+    {
+
+        width: 100%;
+    }
+    .galeria-videos .row .col-2
+    {
+        margin: 0px;
+        width: 100%;
+    }
+
+
+    .galeria .row {
+        display: block;
+        box-shadow: 0px 0px 4px rgb(0,0,0,.5);
+    }
+
+
+
+    .galeria .row .col-1 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .galeria .row .col-2 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .galeria .row .col-3 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .galeria .row .col-4 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    footer .row {
+        display: block;
+        margin: 0px;
+    }
+
+    footer .row .col-1 {
+        margin: 5px 30px 10px 0px;
+        width: 100%;
+    }
+    footer .row .col-2 {
+        margin: 5px 30px 10px 0px;
+        width: 100%;
+    }
+    footer .row .col-3 {
+        margin: 5px 30px 10px 0px;
+        width: 100%;
+    }
+    footer .row .col-4 {
+        margin: 5px 30px 10px 0px;
+        width: 100%;
+    }
+  
+  
+
+    .trailer video
+    {
+        width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    }
+  
+    .redes-sociales
+    {
+        top: 40%;
+    }
+}
+  
+  

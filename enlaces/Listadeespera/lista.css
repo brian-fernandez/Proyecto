@@ -276,6 +276,89 @@ background-color: rgba(255,255,255,0.84);
 
 
 
+/* Redes sociales*/
+
+
+.redes-sociales
+{
+    display: grid;
+    position: fixed;
+    z-index: 10000;
+    top:30%;
+}
+
+.redes-sociales a
+
+{
+    text-decoration: none;
+   
+}
+
+.redes-sociales a:nth-child(1) span
+{
+    background-color: #3b5999;
+    box-shadow: 0 0 7px rgb(0,0,0,0.1);
+
+    width: 35px;
+    padding: 10px;
+    color: white;
+
+}
+
+.redes-sociales a:nth-child(1) :hover
+{
+    animation: 0.5s redes forwards;
+}
+.redes-sociales a:nth-child(2) span
+{
+    background-color: #41ce4d;
+    box-shadow: 0 0 7px rgb(0,0,0,0.1);
+    width: 35px;
+    padding: 10px;
+    color: white;
+}
+.redes-sociales a:nth-child(2) :hover
+{
+    animation: 0.5s redes forwards;
+}
+.redes-sociales a:nth-child(3) span
+{
+    background-color: #55acee;
+    box-shadow: 0 0 7px rgb(0,0,0,0.1);
+    width: 35px;
+    padding: 10px;
+    color: white;
+}
+.redes-sociales a:nth-child(3) :hover
+{
+    animation: 0.5s redes forwards;
+}
+.redes-sociales a:nth-child(4) span
+{
+    background-color: #e4405f;
+    box-shadow: 0 0 7px rgb(0,0,0,0.1);
+    width: 35px;
+    padding: 10px;
+    color: white;
+}
+.redes-sociales a:nth-child(4) :hover
+{
+    animation: 0.5s redes forwards ease;
+}
+
+@keyframes redes 
+{
+    0%
+    {
+        width: 30px;
+    }
+    100%
+    {
+        width: 40px;
+    }
+}
+/*  fin de redes sosciales*/ 
+
 /* foooter  */
 
 footer{

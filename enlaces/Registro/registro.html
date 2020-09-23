@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,13 @@
     <link rel="stylesheet" href="registro.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link rel="stylesheet" href="media.css">
-        
+    <link rel="stylesheet" href="media.css">
+
 </head>
 
 <body>
-    
-    
+
+
     <a href="#logo1" class="buttomtop"> ^ </a>
     <section class="sec">
 
@@ -51,27 +52,34 @@
             <h1 class="titulo"> <span>Registro</span> <br> Lee las condiciones de registro.
                 <br>
                 <br>
-                Con el registro usted autoriza que el registro de su familiar, sea parte de nuestra base de datos de necesitados de plasma, Donarplasma.com pondra esos datos para que el publico pueda verlo, manteniendo para efecto de registros sus  datos los cuales sólo serán otorgados a hospitales, clínicas y/o autoridades de salud que así lo requieran.
+                Con el registro usted autoriza que el registro de su familiar, sea parte de nuestra base de datos de
+                necesitados de plasma, Donarplasma.com pondra esos datos para que el publico pueda verlo, manteniendo
+                para efecto de registros sus datos los cuales sólo serán otorgados a hospitales, clínicas y/o
+                autoridades de salud que así lo requieran.
                 <br>
                 <br>
-                El registro como FAMILIAR NECESITADO DE PLASMA se conforma en una declaración jurada voluntaria de la veracidad de datos que usted declara, por lo que cualquier información falsa como actuar fuera de lo ético y lo legal, será reportado.
+                El registro como FAMILIAR NECESITADO DE PLASMA se conforma en una declaración jurada voluntaria de la
+                veracidad de datos que usted declara, por lo que cualquier información falsa como actuar fuera de lo
+                ético y lo legal, será reportado.
                 <br>
                 <br>
                 Muchas gracias por participar, Juntos salvaremos más vidas. pp <br></h1>
             <br>
-           
+
 
             <br>
 
             <div class="container-botones">
-                <div class="botones-registro"><button class="boton" onclick="contenedor('donante')">Registrarse como donante</button></div>
+                <div class="botones-registro"><button class="boton" onclick="contenedor('donante')">Registrarse como
+                        donante</button></div>
                 <br>
-                
-                <div class="botones-registro"><button class="boton" onclick="contenedor('donador')">Registrarse como donador</button></div>
+
+                <div class="botones-registro"><button class="boton" onclick="contenedor('donador')">Registrarse como
+                        donador</button></div>
 
 
 
-                
+
             </div>
             <div id="donante" class="mostrador" style="display:none">
                 <div class="contenedor"></div>
@@ -81,43 +89,140 @@
                         <p style="color: white;">Formulario de registro.
                             <br>
                             No olvides tus datos, por que los necesitaras para dar de baja un registro.</p>
-        
-                            <form action="">
-                                <br>
-                                <label for="">Usuario</label>
-                                <br>
-                                <input type="text" placeholder="Ej: Steve">
-                                <br>
-                                <label for="">Correo Electronico</label>
-                                <br>
-                                <input type="email" placeholder="Ej: Steve@gmail.com">
-                                <br>
-                                <label for="">Contraseña</label>
-                                <br>
-                                <input type="password" placeholder="Su clave de acceso">
-                                <br>
-                                <label for="">Porfavor confirme su Contraseña</label>
-                                <br>
-                                <input type="password" placeholder="Repitua su clave de acceso">
-        
-                                <br>
-                                <input type="checkbox"><p style="color: white;" >Estoy deacuerdo con las <a href="">politicas</a> de la pagina.</p>
-                            </form>
+
+                        <form action="">
+                            <br>
+                            <label for="">Usuario</label>
+                            <br>
+                            <input type="text" placeholder="Ej: Steve">
+                            <br>
+                            <label for="">Correo Electronico</label>
+                            <br>
+                            <input type="email" placeholder="Ej: Steve@gmail.com">
+                            <br>
+                            <label for="">Contraseña</label>
+                            <br>
+                            <input type="password" placeholder="Su clave de acceso">
+                            <br>
+                            <label for="">Porfavor confirme su Contraseña</label>
+                            <br>
+                            <input type="password" placeholder="Repitua su clave de acceso">
+
+                            <br>
+                                </form>
                     </div>
                     <div class="col-2">
-                        <br>
-                        En contruccion
+
+                        <form action="">
+                            <label for="">Nombre completo</label>
+                            <input type="text" placeholder="Ej: Solo se acepta nombres Completos">
+                            <br>
+                            <label for="">Carnet de identidad</label>
+                            <input type="text" placeholder="EJ: 14696234">
+                            <br>
+                            <label for="">Ciudad donde vive</label>
+                            <br>
+                            <select id="cars" name="cars">
+                                <option value=""></option>
+                                <option value="Cochabamba">Cochabamba</option>
+                                <option value="La Paz">La Paz</option>
+                                <option value="Santa Cruz">Santa Cruz</option>
+                                <option value="Oruro">Oruro</option>
+                                <option value="Pando">Pando</option>
+
+                                <option value="Tarija">Tarija</option>
+
+                                <option value="Potosi">Potosi</option>
+
+                                <option value="Beni">Beni</option>
+
+                                <option value="Chuquisaca">Chuquisaca</option>
+                            </select>
+                            <br>
+                            <label for="">Tipo de sangre</label>
+                            <select name="sangre" id="sangre">
+                                <option value="" selected=""></option>
+                                <option value="A Positivo">A Positivo</option>
+                                <option value="B Positivo">B Positivo</option>
+                                <option value="O Positivo">O Positivo</option>
+                                <option value="AB Positivo">AB Positivo</option>
+                                <option value="A Negativo">A Negativo</option>
+                                <option value="B Negativo">B Negativo</option>
+                                <option value="O Negativo">O Negativo</option>
+                                <option value="AB Negativo">AB Negativo</option>
+                           
+                            </select>
+                            <br>
+                            <label for="">¿Tiene la prueba ELISA(IgM/IgG)?</label>
+                            <select name="respuesta" id="respuesta">
+                                <option value=""></option>
+                                <option value="si">Si</option>
+                                <option value="no">No</option>
+                            </select>
+
+
+                        </form>
                     </div>
+                  
                 </div>
-               
-              </div>
-              
-              <div id="donador" class="mostrador" style="display:none">
+                    <div class="row-2">
+                        <div class="col-1">
+                            <form action="">
+                                <label for="">Extensión de CI*</label>
+                                <select id="cars2" name="cars2">
+                                    <option value=""></option>
+                                    <option value="Cochabamba">Cochabamba</option>
+                                    <option value="La Paz">La Paz</option>
+                                    <option value="Santa Cruz">Santa Cruz</option>
+                                    <option value="Oruro">Oruro</option>
+                                    <option value="Pando">Pando</option>
+    
+                                    <option value="Tarija">Tarija</option>
+    
+                                    <option value="Potosi">Potosi</option>
+    
+                                    <option value="Beni">Beni</option>
+    
+                                    <option value="Chuquisaca">Chuquisaca</option>
+                                </select>
+
+                                <br>
+                                <label for="">Numero de whatsapp*</label>
+                                <input type="number" name="" id="">
+                                <br>
+                                <label for="">¿Tiene la prueba PCR-TR?</label>
+                                <select name="respuesta2" id="respuesta2">
+                                    <option value=""></option>
+                                    <option value="si">Si</option>
+                                    <option value="no">No</option>
+                                </select>
+                                <br>
+                                <label for="">¿Esta dispuesto a viajar?</label>
+                                <select name="respuesta3" id="respuesta3">
+                                    <option value=""></option>
+                                    <option value="si">Si</option>
+                                    <option value="no">No</option>
+                                </select>
+    
+                            </form>
+                        </div>
+                        <div class="col-2">
+                            <form action="">
+                            <p style="color: white;">Estoy deacuerdo con las <a href="">politicas</a> de la pagina.</p>
+                            <input type="checkbox">
+                            <br>
+                            <input style="width: 100%;" type="submit" value="Enviar Informacion">
+                            </form>
+                        </div>
+                    </div>
+            </div>
+
+            <div id="donador" class="mostrador" style="display:none">
                 <h2>Tab2</h2>
                 <p>Contenido en contruccion</p>
-              </div>
-              
-          
+            </div>
+
+
 
         </div>
 
@@ -127,7 +232,7 @@
 
 
     </section>
-    
+
 
     <div class="redes-sociales">
 
@@ -138,10 +243,10 @@
 
     </div>
 
-<script src="tabs.js"></script>
+    <script src="tabs.js"></script>
 
-<!-- Fin tabs-->
-    
+    <!-- Fin tabs-->
+
     <script>
         function menuToogle() {
             const menuToogle = document.querySelector('.toggleMenu');
@@ -197,7 +302,7 @@
                 </div>
             </div>
             <div class="col-4">
-               <a href="https://portal.upds.edu.bo/index/"><img src="../img/logo_upds.png" alt=""></a>
+                <a href="https://portal.upds.edu.bo/index/"><img src="../img/logo_upds.png" alt=""></a>
                 <p>Estudiante: Brian fernandez Mercado <br>
                     Carrera: Ingeneria de sistemas <br>
                     Materia: Tegnologia Web I <br>
@@ -207,4 +312,5 @@
         </div>
     </footer>
 </body>
+
 </html>

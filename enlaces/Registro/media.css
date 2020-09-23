@@ -95,6 +95,10 @@ input[type=submit]:hover
 {
     font-size: 1em !important;
 }
+
+.container-botones {
+    display: block;
+}
 }
 
 
@@ -386,6 +390,9 @@ input[type=submit]:hover
    color: white;
    
    
+}
+.container-botones {
+    display: block;
 }
 }
   

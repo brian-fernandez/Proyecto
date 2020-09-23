@@ -90,6 +90,11 @@ input[type=submit]:hover
    
    
 }
+.container .titulo
+    
+{
+    font-size: 1em !important;
+}
 }
 
 

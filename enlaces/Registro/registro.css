@@ -453,6 +453,7 @@ form a
     text-decoration: none;
     font-weight: 400;
     letter-spacing: 2px;
+    border-bottom: 1px solid white;
 }
 form a:hover
 {

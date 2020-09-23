@@ -2,12 +2,12 @@ var cont ;
 
 function controlar ()
 {
-    cont = 1;
+    cont = true;
 } 
 
 function controlador_sesion(cont)
 {
-    if (cont=="1") {
+    if (cont) {
         
     }
 }

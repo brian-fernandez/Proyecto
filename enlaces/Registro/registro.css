@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+
+body::-webkit-scrollbar
+{
+    background-color: white;
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb
+{
+    background-color: #3586ff;
+    color:#3586ff;
+    
+}
+
+
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+}
+
+/* -- seccion del header  */
+
+.buttomtop {
+    border: 1px solid black;
+    padding: 5px 15px;
+    font-size: 1.5em;
+    position: fixed;
+    z-index: 1;
+    display: block;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-family: 'Poppins';
+    border-radius: 50px;
+    color: black;
+    left: 95%;
+    top:90%;
+}
+.buttomtop:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+section{
+    position: relative;
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    transition: 0.5s;
+    top: 0;
+}
+header
+{
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    position: relative;
+    max-width: 220px;
+    text-decoration: none;
+    color: #000d00;
+    font-size: 3em;
+    font-weight: 400;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a
+{
+    display: inline-block;
+    color: #5b5c5b;
+    font-weight: 400;
+    margin-left:40px;
+    text-decoration: none;
+    font-size: 1.6em;
+
+}
+header ul li a:hover
+{
+    color: #000000;
+    
+}
+
+
+.toggleMenu
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/entrar1.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    z-index: 2;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.toggleMenu.active
+{
+    background-image: url(../img/salir1.png);
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    
+
+}
+.navigation.active{
+    visibility: visible;
+    opacity:1 ;
+    
+}
+
+
+
+/* - FIN DEL CODIGO HEADER - */
+
+.section2
+{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    background: #3586ff;
+    overflow: hidden;
+    top:35%;
+}
+.section2 .weave
+{
+position: absolute;
+
+left: 0;
+width: 100%;
+height: 100px;
+background: url(../img/wave.png);
+background-size: 1000px 100px;
+transform: rotate(180deg);
+
+}
+
+.section2 .weave.weave1
+{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity:1 ;
+    animation-delay: 0s;
+    top: 0;
+}
+.section2 .weave.weave2
+{
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity:0.5 ;
+    animation-delay: -5s;
+    top: 10px;
+}
+.section2 .weave.weave3
+{
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity:0.2 ;
+    animation-delay: -2s;
+    top: 15px;
+}
+.section2 .weave.weave4
+{
+    animation: animate2 5s linear infinite;
+    z-index: 997;
+    opacity:0.7 ;
+    animation-delay: -5s;
+    top: 20px;
+}
+
+/* */
+
+@keyframes animate
+{
+    0%
+    {
+        background-position-x:0 ;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate2
+{
+    0%
+    {
+        background-position-x:0 ;
+    }
+    100%
+    {
+        background-position-x: -1000px;
+    }
+}
+
+
+
+
+
+
+.container {
+    margin: 115px 10%;
+}
+
+
+.container .titulo 
+{
+font-weight: 400;
+font-size: 1em;
+color: white;
+text-shadow: 0px 0px 11px rgb(0,0,0,0.1);
+text-align: justify;
+width: 100%;
+
+
+}
+.container span 
+{
+font-weight: 600;
+letter-spacing: 2px;
+font-size: 3em;
+}
+
+.botones-registro
+{
+text-align: center;
+
+margin: 10px;
+}
+.botones-registro a 
+{
+border-radius: 50px;
+padding-top: 15px;
+padding-right: 40px;
+padding-bottom: 16px;
+padding-left: 40px;
+fill: #0984e3;
+color: #0984e3;
+background-color: #ffffff;
+text-decoration: none;
+cursor: pointer;
+
+}
+.botones-registro a:hover
+{
+color: #0984e3;
+background-color: rgba(255,255,255,0.84);
+}
+
+
+/* -Fin del codigo de seccion 2- */
+
+
+
+
+/* Redes sociales*/
+
+
+.redes-sociales
+{
+    display: grid;
+    position: fixed;
+    z-index: 10000;
+    top:30%;
+}
+
+.redes-sociales a
+
+{
+    text-decoration: none;
+   
+}
+
+.redes-sociales a:nth-child(1) span
+{
+    background-color: #3b5999;
+    box-shadow: 0 0 7px rgb(0,0,0,0.1);
+
+    width: 35px;
+    padding: 10px;
+    color: white;
+
+}
+
+.redes-sociales a:nth-child(1) :hover
+{
+    animation: 0.5s redes forwards;
+}
+.redes-sociales a:nth-child(2) span
+{
+    background-color: #41ce4d;
+    box-shadow: 0 0 7px rgb(0,0,0,0.1);
+    width: 35px;
+    padding: 10px;
+    color: white;
+}
+.redes-sociales a:nth-child(2) :hover
+{
+    animation: 0.5s redes forwards;
+}
+.redes-sociales a:nth-child(3) span
+{
+    background-color: #55acee;
+    box-shadow: 0 0 7px rgb(0,0,0,0.1);
+    width: 35px;
+    padding: 10px;
+    color: white;
+}
+.redes-sociales a:nth-child(3) :hover
+{
+    animation: 0.5s redes forwards;
+}
+.redes-sociales a:nth-child(4) span
+{
+    background-color: #e4405f;
+    box-shadow: 0 0 7px rgb(0,0,0,0.1);
+    width: 35px;
+    padding: 10px;
+    color: white;
+}
+.redes-sociales a:nth-child(4) :hover
+{
+    animation: 0.5s redes forwards ease;
+}
+
+@keyframes redes 
+{
+    0%
+    {
+        width: 30px;
+    }
+    100%
+    {
+        width: 40px;
+    }
+}
+/*  fin de redes sosciales*/ 
+
+
+/* foooter  */
+
+footer{
+    position: relative;
+    
+    background-color:#0984e3 ;
+    width: 100%;
+    padding: 20px;
+}
+footer p 
+{
+    color: white;
+
+}
+footer .row 
+{
+    display: flex;
+}
+footer .col-1,.col-2, .col-3,.col-4
+{
+    margin: 5px 30px  5px  30px;
+}
+
+footer ul{
+    position: relative;
+   
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a
+{
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-bottom:20px;
+    text-decoration: none;
+    font-size: 1em;
+
+}
+footer .col-2 h3 
+{
+    color: white;
+    font-weight: 200;
+    border-bottom: 1px solid white;
+    width: 210px;
+}
+
+footer ul li a:hover
+{
+    color:black;
+
+}
+
+footer .col-3 
+{
+    width: 30%;
+    padding: 10px;
+}
+footer .col-3 p 
+{
+    width: 100%;
+    text-align: justify;
+}
+footer .col-3 .botones-registro {
+    text-align: center;
+    width: 100%;
+    
+}
+footer .col-4 img 
+{
+    background-color :white;
+    width: 100px;
+    margin: 0px 30%;
+}
+
+
+/* fin de footer*/
+
+/* botones form*/
+form label
+{
+    color: white;
+    letter-spacing: 1px;
+}
+
+form a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+form a:hover
+{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-bottom: 1px solid black;
+}
+input
+{
+    padding: 10px;
+    width: 50%;
+    font-size: 15px;
+    border: 1px solid #55acee;
+    outline: none;
+    letter-spacing: 2px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+input[type=submit]
+{
+   color: #0984e3;
+   width: 20%;
+   cursor: pointer;
+
+}
+input[type=submit]:hover
+{
+    background: #55acee;
+   color: white;
+   transition-duration: 0.5s;
+   
+}
+
+input[type=checkbox]
+{
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* fin */
+
+
+.container-botones
+{
+    display: flex;
+}

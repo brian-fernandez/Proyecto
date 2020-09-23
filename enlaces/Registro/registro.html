@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/b7216b596768a00970f08dbbd187f038.png" type="image/x-icon">
     <title>Inicio de sesion</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="registro.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="media.css">
+        
 </head>
-<body><a href="#logo1" class="buttomtop"> ^ </a>
+
+<body>
+    
+    
+    <a href="#logo1" class="buttomtop"> ^ </a>
     <section class="sec">
 
 
@@ -43,25 +48,70 @@
 
 
         <div class="container">
-            <h1 class="titulo"> <span>Iniciar sesion</span> <br> Para ver tus registros, editar y dar de baja un registro.</h1>
+            <h1 class="titulo"> <span>Registro</span> <br> Lee las condiciones de registro.
+                <br>
+                <br>
+                Con el registro usted autoriza que el registro de su familiar, sea parte de nuestra base de datos de necesitados de plasma, Donarplasma.com pondra esos datos para que el publico pueda verlo, manteniendo para efecto de registros sus  datos los cuales sólo serán otorgados a hospitales, clínicas y/o autoridades de salud que así lo requieran.
+                <br>
+                <br>
+                El registro como FAMILIAR NECESITADO DE PLASMA se conforma en una declaración jurada voluntaria de la veracidad de datos que usted declara, por lo que cualquier información falsa como actuar fuera de lo ético y lo legal, será reportado.
+                <br>
+                <br>
+                Muchas gracias por participar, Juntos salvaremos más vidas. <br></h1>
             <br>
            
 
-            <form action="">
-                <input type="email" placeholder="Correo">
-                <br>
-                <br>
-                <input type="password" placeholder="Contraseña">
-<br>
-<br>
-                <a href="">¿Olvidaste la contraseña?</a>
-                <br>
-                <a href="/enlaces/Registro/registro.html">¿No tienes cuenta? Registrate</a>
+            <br>
 
+            <div class="container-botones">
+                <div class="botones-registro"><a onclick="contenedor('donante')">Registrarse como donante</a></div>
+                <br>
+                <br> 
                 <br>
                 <br>
-                <input type="submit" value="Entrar">
-            </form>
+                <div class="botones-registro"><a onclick="contenedor('donador')">Registrarse como donador</a></div>
+
+
+
+                
+            </div>
+            <div id="donante" class="mostrador" style="display:none">
+                <div class="contenedor"></div>
+                
+                <br>
+                <p style="color: white;">Formulario de registro.
+                    <br>
+                    No olvides tus datos, por que los necesitaras para dar de baja un registro.</p>
+
+                    <form action="">
+                        <br>
+                        <label for="">Usuario</label>
+                        <br>
+                        <input type="text" placeholder="Ej: Steve">
+                        <br>
+                        <label for="">Correo Electronico</label>
+                        <br>
+                        <input type="email" placeholder="Ej: Steve@gmail.com">
+                        <br>
+                        <label for="">Contraseña</label>
+                        <br>
+                        <input type="password" placeholder="Su clave de acceso">
+                        <br>
+                        <label for="">Porfavor confirme su Contraseña</label>
+                        <br>
+                        <input type="password" placeholder="Repitua su clave de acceso">
+
+                        <br>
+                        <input type="checkbox"><a href="">  Estoy deacuerdo con las politicas de la pagina</a>
+                    </form>
+              </div>
+              
+              <div id="donador" class="mostrador" style="display:none">
+                <h2>Paris</h2>
+                <p>Paris is the capital of France.</p>
+              </div>
+              
+          
 
         </div>
 
@@ -71,7 +121,7 @@
 
 
     </section>
-    
+    <script src="/enlaces/Registro/tabs.js"></script>
 
     <div class="redes-sociales">
 
@@ -82,6 +132,7 @@
 
     </div>
 
+    
 
     
     <script>

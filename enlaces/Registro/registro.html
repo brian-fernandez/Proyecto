@@ -76,8 +76,7 @@
                         donante</button></div>
                 <br>
 
-                <div class="botones-registro"><button class="boton" onclick="contenedor('donador')">Registrarse como
-                        donador</button></div>
+                <div class="botones-registro"><button class="boton" onclick="contenedor('donador')">Registrar a un necesitado de plasma</button></div>
 
 
 
@@ -220,8 +219,85 @@
             </div>
 
             <div id="donador" class="mostrador" style="display:none">
-                <h2>Tab2</h2>
-                <p>Contenido en contruccion</p>
+                <div class="row-2">
+                    <div class="col-1">
+                        <br>
+                        <p style="color: white;">Formulario de registro.
+                            <br>
+                            No olvides tus datos, por que los necesitaras para dar de baja un registro.</p>
+
+                        <form action="">
+                            <br>
+                            <label for="">Usuario</label>
+                            <br>
+                            <input type="text" placeholder="Ej: Steve">
+                            <br>
+                            <label for="">Correo Electronico</label>
+                            <br>
+                            <input type="email" placeholder="Ej: Steve@gmail.com">
+                            <br>
+                            <label for="">Contraseña</label>
+                            <br>
+                            <input type="password" placeholder="Su clave de acceso">
+                            <br>
+                            <label for="">Porfavor confirme su Contraseña</label>
+                            <br>
+                            <input type="password" placeholder="Repitua su clave de acceso">
+                            
+                          
+                            <br>
+                           
+                            
+                                </form>
+                    </div>
+                    <div class="col-2">
+                        <form action="">
+                            <br>
+                            <label for="">Correo de notificacion</label>
+                            <input type="button" value="" placeholder="Ej:steve@gmail.com">
+                            <br>
+                            <label for="">Nombre del receptor</label>
+                            <input type="text" placeholder="Ej: Steve Jobs">
+                            <br>
+                            <label for="">Contacto Principal</label>
+                            <input type="text" placeholder="Ej: Daniela Flores">
+                            <br>
+                            <label for="">Tipo de sangre</label>
+                            <select name="sangre" id="sangre">
+                                <option value="" selected=""></option>
+                                <option value="A Positivo">A Positivo</option>
+                                <option value="B Positivo">B Positivo</option>
+                                <option value="O Positivo">O Positivo</option>
+                                <option value="AB Positivo">AB Positivo</option>
+                                <option value="A Negativo">A Negativo</option>
+                                <option value="B Negativo">B Negativo</option>
+                                <option value="O Negativo">O Negativo</option>
+                                <option value="AB Negativo">AB Negativo</option>
+                           
+                            </select>
+                            <br>
+                            <label for="">Telefono principal (whatsapp)</label>
+                            <input type="number" name="" id="" placeholder="Ej:69489012">
+                            <br>
+                            <label for="">Texto alternativo</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Aqui puedes poner alguna nota"></textarea>
+                            <br>
+                            <label for=""> Foto Max 2MB (100px X 100px)</label>
+                            <input type="file" name="" id="">
+                            <br>
+
+                            
+
+                            <br>
+                            <p style="color: white;">Estoy deacuerdo con las <a href="">politicas</a> de la pagina.</p>
+                            <input type="checkbox">
+                            <br>
+
+                            <input type="submit" value="Enviar datos">
+
+                        </form>
+                    </div>
+                </div>
             </div>
 
 

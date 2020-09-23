@@ -360,7 +360,7 @@ input[type=submit]:hover
     input
 {
     padding: 10px;
-    width: 50%;
+    width: 100%;
     font-size: 15px;
     border: none;
     outline: none;
@@ -372,7 +372,7 @@ input[type=submit]:hover
 input[type=submit]
 {
    color: #0984e3;
-   width: 50%;
+   width: 100%;
 
 }
 input[type=submit]:hover

@@ -66,9 +66,7 @@
             <div class="container-botones">
                 <div class="botones-registro"><button class="boton" onclick="contenedor('donante')">Registrarse como donante</button></div>
                 <br>
-                <br> 
-                <br>
-                <br>
+                
                 <div class="botones-registro"><button class="boton" onclick="contenedor('donador')">Registrarse como donador</button></div>
 
 
@@ -77,38 +75,45 @@
             </div>
             <div id="donante" class="mostrador" style="display:none">
                 <div class="contenedor"></div>
-                
-                <br>
-                <p style="color: white;">Formulario de registro.
-                    <br>
-                    No olvides tus datos, por que los necesitaras para dar de baja un registro.</p>
-
-                    <form action="">
+                <div class="row-2">
+                    <div class="col-1">
                         <br>
-                        <label for="">Usuario</label>
+                        <p style="color: white;">Formulario de registro.
+                            <br>
+                            No olvides tus datos, por que los necesitaras para dar de baja un registro.</p>
+        
+                            <form action="">
+                                <br>
+                                <label for="">Usuario</label>
+                                <br>
+                                <input type="text" placeholder="Ej: Steve">
+                                <br>
+                                <label for="">Correo Electronico</label>
+                                <br>
+                                <input type="email" placeholder="Ej: Steve@gmail.com">
+                                <br>
+                                <label for="">Contraseña</label>
+                                <br>
+                                <input type="password" placeholder="Su clave de acceso">
+                                <br>
+                                <label for="">Porfavor confirme su Contraseña</label>
+                                <br>
+                                <input type="password" placeholder="Repitua su clave de acceso">
+        
+                                <br>
+                                <input type="checkbox"><p style="color: white;" >Estoy deacuerdo con las <a href="">politicas</a> de la pagina.</p>
+                            </form>
+                    </div>
+                    <div class="col-2">
                         <br>
-                        <input type="text" placeholder="Ej: Steve">
-                        <br>
-                        <label for="">Correo Electronico</label>
-                        <br>
-                        <input type="email" placeholder="Ej: Steve@gmail.com">
-                        <br>
-                        <label for="">Contraseña</label>
-                        <br>
-                        <input type="password" placeholder="Su clave de acceso">
-                        <br>
-                        <label for="">Porfavor confirme su Contraseña</label>
-                        <br>
-                        <input type="password" placeholder="Repitua su clave de acceso">
-
-                        <br>
-                        <input type="checkbox"><p style="color: white;" >Estoy deacuerdo con las <a href="">politicas</a> de la pagina.</p>
-                    </form>
+                    </div>
+                </div>
+               
               </div>
               
               <div id="donador" class="mostrador" style="display:none">
-                <h2>Paris</h2>
-                <p>Paris is the capital of France.</p>
+                <h2>Tab2</h2>
+                <p>Contenido en contruccion</p>
               </div>
               
           
@@ -132,7 +137,7 @@
 
     </div>
 
-    
+    <!-- Tabs-->
 <script>
     function contenedor(pos) {
     var i;

@@ -182,6 +182,14 @@ input[type=submit]:hover
     padding: 10px 10px;
 }
 
+
+.col-5-1-1 {
+    width: 100%;
+    display: block;
+}
+.col-5-1-1 .card-1 img {
+    width: 100%;
+}
 }
 
 

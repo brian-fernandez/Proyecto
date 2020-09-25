@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,20 @@
     <link rel="stylesheet" href="lista.css">
     <link rel="stylesheet" href="listamedia.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 </head>
 
 <body>
     <a href="#logo1" class="buttomtop"> ^ </a>
-    <div class="contenedor-tiempo"> <span id="horas">00</span> : <span id="minutos">00</span> : <span id="segundos">00</span>  
-         <script src="Time.js"></script> </div>
-   
-    
-    
+    <div class="contenedor-tiempo"> <span id="horas">00</span> : <span id="minutos">00</span> : <span
+            id="segundos">00</span>
+         
+        <script src="Time.js"></script>
+    </div>
+
+
+
     <section class="sec">
 
 
@@ -51,17 +55,223 @@
 
 
         <div class="container">
-            <h1 class="titulo"> <span>Iniciar sesion</span> <br> Para ver tus registros, editar y dar de baja un
-        
+            <br>
+
+            <br>
+            <p class="d-parrafo"> <strong> Nota:</strong> Esta plataforma trata de conectar a las personas
+                necesitadas de plasma con donantes, <strong> NO PODEMOS VERIFICAR </strong> que los donantes en
+                esta lista cumplan con todos los requisitos para donar. <strong> POR FAVOR VERIFIQUE QUE EL
+                    DONANTE CUMPLA CON TODOS LOS REQUISITOS.</strong>
+                <br>
+                <br>
+                Comparte esta lista con tus amigos, juntos salvaremos mas vidas.
+                <br>
+                <br>
+
+                Seleccion una opción</p>
+            <br>
+            <div class="row2">
+                <div class="col-1">
+                    <div class="botones" onclick="contenedor('donante')">Listas de donantes</div>
+                </div>
+                <div class="col-2">
+                    <div class="botones" onclick="contenedor('donador')">Listas de receptores</div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row3">
+                <div id="donante" class="mostrador" style="display:none">
+
+                    <h1 class="d-titlle">Personas que pueden donar plasma</h1>
+
+                    <br>
+                    <div class="row-4">
+                        <div class="col-1-1">
+                            <div>
+                                <label for="">Ciudad donde vive</label>
+                                <br>
+                                <select id="cars" name="cars">
+                                    <option value=""></option>
+                                    <option value="Cochabamba">Cochabamba</option>
+                                    <option value="La Paz">La Paz</option>
+                                    <option value="Santa Cruz">Santa Cruz</option>
+                                    <option value="Oruro">Oruro</option>
+                                    <option value="Pando">Pando</option>
+
+                                    <option value="Tarija">Tarija</option>
+
+                                    <option value="Potosi">Potosi</option>
+
+                                    <option value="Beni">Beni</option>
+
+                                    <option value="Chuquisaca">Chuquisaca</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-2-1">
+                            <form action="">
+                                <label for="">Tipo de sangre</label>
+
+                                <br>
+                                <select name="sangre" id="sangre">
+                                    <option value="" selected=""></option>
+                                    <option value="A Positivo">A Positivo</option>
+                                    <option value="B Positivo">B Positivo</option>
+                                    <option value="O Positivo">O Positivo</option>
+                                    <option value="AB Positivo">AB Positivo</option>
+                                    <option value="A Negativo">A Negativo</option>
+                                    <option value="B Negativo">B Negativo</option>
+                                    <option value="O Negativo">O Negativo</option>
+                                    <option value="AB Negativo">AB Negativo</option>
+
+                                </select>
+                            </form>
+                        </div>
+                        <div class="col-3-1">
+                            <label for="">Estado</label>
+
+                            <br>
+                            <select>
+
+                                <option value="No verificado">No verificado</option>
+                                <option value="Puede donar">Puede donar</option>
+                                <option value="Falta prueba PCR">Falta PCR</option>
+                                <option value="Falta prueba ELISA">Falta ELISA</option>
+                                <option value="Falta ELISA y PCR">Falta ELISA y PCR</option>
+                            </select>
+                        </div>
+                        <div class="col-4-1">
+                            <label for="">Disponiblidad para viajar</label>
+
+                            <br>
+                            <select class="jet-select__control" name="viaje">
+                                <option value="">
+                                </option>
+                                <option value="SI ">SI
+                                </option>
+                                <option value="NO">NO
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="row-4-1">
+                        <div class="col-1-1-1">
+                            <div class="fa fa-map-marker" aria-hidden="true""> CHUQUISACA</div>
+                            <div class=" fa fa-certificate" aria-hidden="true">  O POSITIVO</div>
+                            <div class="fa fa-check-square" aria-hidden="true">  Si</div>
+                            <div class="fa fa-calendar-check-o" aria-hidden="true">  PUBLICADO ELSEPTIEMBRE 22, 2020</div>
+                            <a href=""><div class="btn-Whasapp">Contactar</div></a> 
+                        </div>
+                        <div class="col-1-1-1">
+                            <div class="fa fa-map-marker" aria-hidden="true""> COCHABAMBA</div>
+                            <div class=" fa fa-certificate" aria-hidden="true">  O POSITIVO</div>
+                            <div class="fa fa-check-square" aria-hidden="true">  Si</div>
+                            <div class="fa fa-calendar-check-o" aria-hidden="true">  PUBLICADO ELSEPTIEMBRE 22, 2020</div>
+                            <a href=""><div class="btn-Whasapp">Contactar</div></a> 
+                        </div>
+                        <div class="col-1-1-1">
+                            <div class="fa fa-map-marker" aria-hidden="true""> CHUQUISACA</div>
+                            <div class=" fa fa-certificate" aria-hidden="true">  O POSITIVO</div>
+                            <div class="fa fa-check-square" aria-hidden="true">  Si</div>
+                            <div class="fa fa-calendar-check-o" aria-hidden="true">  PUBLICADO ELSEPTIEMBRE 22, 2020</div>
+                            <a href=""><div class="btn-Whasapp">Contactar</div></a> 
+                        </div>
+                        <div class="col-1-1-1">
+                            <div class="fa fa-map-marker" aria-hidden="true""> CHUQUISACA</div>
+                            <div class=" fa fa-certificate" aria-hidden="true">  O POSITIVO</div>
+                            <div class="fa fa-check-square" aria-hidden="true">  Si</div>
+                            <div class="fa fa-calendar-check-o" aria-hidden="true">  PUBLICADO ELSEPTIEMBRE 22, 2020</div>
+                            <a href=""><div class="btn-Whasapp">Contactar</div></a> 
+                        </div>
+                        <div class="col-1-1-1">
+                            <div class="fa fa-map-marker" aria-hidden="true""> CHUQUISACA</div>
+                            <div class=" fa fa-certificate" aria-hidden="true">  O POSITIVO</div>
+                            <div class="fa fa-check-square" aria-hidden="true">  Si</div>
+                            <div class="fa fa-calendar-check-o" aria-hidden="true">  PUBLICADO ELSEPTIEMBRE 22, 2020</div>
+                            <a href=""><div class="btn-Whasapp">Contactar</div></a> 
+                        </div>
+                        <div class="col-1-1-1">
+                            <div class="fa fa-map-marker" aria-hidden="true""> CHUQUISACA</div>
+                            <div class=" fa fa-certificate" aria-hidden="true">  O POSITIVO</div>
+                            <div class="fa fa-check-square" aria-hidden="true">  Si</div>
+                            <div class="fa fa-calendar-check-o" aria-hidden="true">  PUBLICADO ELSEPTIEMBRE 22, 2020</div>
+                            <a href=""><div class="btn-Whasapp">Contactar</div></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row3">
+                <div id="donador" class="mostrador" style="display:none">
+                    <h1 class="d-titlle">Personas que necesitan plasma</h1>
+
+                    <br>
+
+                    <div class="row-5">
+                        <div class="row-1-5">
+                            <label for="">Ciudad donde vive</label>
+                            <br>
+                            <select id="cars" name="cars">
+                                <option value=""></option>
+                                <option value="Cochabamba">Cochabamba</option>
+                                <option value="La Paz">La Paz</option>
+                                <option value="Santa Cruz">Santa Cruz</option>
+                                <option value="Oruro">Oruro</option>
+                                <option value="Pando">Pando</option>
+
+                                <option value="Tarija">Tarija</option>
+
+                                <option value="Potosi">Potosi</option>
+
+                                <option value="Beni">Beni</option>
+
+                                <option value="Chuquisaca">Chuquisaca</option>
+                            </select>
+                        </div>
+                        <div class="row-1-5">
+                            <label for="">Tipo de sangre</label>
+
+                            <br>
+                            <select name="sangre" id="sangre">
+                                <option value="" selected=""></option>
+                                <option value="A Positivo">A Positivo</option>
+                                <option value="B Positivo">B Positivo</option>
+                                <option value="O Positivo">O Positivo</option>
+                                <option value="AB Positivo">AB Positivo</option>
+                                <option value="A Negativo">A Negativo</option>
+                                <option value="B Negativo">B Negativo</option>
+                                <option value="O Negativo">O Negativo</option>
+                                <option value="AB Negativo">AB Negativo</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="col-5-1-1">
+                        <div class="card-1">
+                            <img src="img/img1.jpg" alt="">
+                            <p>Nombre: JAVIER MARIO ALVARADO SEGARINO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
         </div>
 
 
 
-        
+        <script src="tabs.js"></script>
+
 
 
     </section>
-    
+
     <div class="redes-sociales">
 
         <a href=""> <span class="fa fa-facebook" aria-hidden="true"></span></a>
@@ -127,7 +337,7 @@
                 </div>
             </div>
             <div class="col-4">
-              <a href="https://portal.upds.edu.bo/index/">  <img src="../img/logo_upds.png" alt=""></a>
+                <a href="https://portal.upds.edu.bo/index/"> <img src="../img/logo_upds.png" alt=""></a>
                 <p>Estudiante: Brian fernandez Mercado <br>
                     Carrera: Ingeneria de sistemas <br>
                     Materia: Tegnologia Web I <br>
@@ -136,6 +346,7 @@
             </div>
         </div>
     </footer>
-   
+
 </body>
+
 </html>

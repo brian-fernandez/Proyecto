@@ -190,6 +190,15 @@ input[type=submit]:hover
 .col-5-1-1 .card-1 img {
     width: 100%;
 }
+
+.row-5 {
+    width: 100%;
+    display: block;
+}
+.row-5 .row-1-5 {
+    width: 100%;
+    padding: 5px;
+}
 }
 
 

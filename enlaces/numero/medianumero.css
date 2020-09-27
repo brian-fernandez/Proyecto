@@ -404,6 +404,10 @@ input[type=submit]:hover
     width: 140%;
     cursor: none;
 }
+.row1 .col-1 .card 
+{
+    border-radius: 20px;
+}
 }
   
   

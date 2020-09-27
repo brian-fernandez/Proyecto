@@ -398,6 +398,12 @@ input[type=submit]:hover
    
    
 }
+
+.row1 .col-1 .card .card-img img {
+    justify-content: center;
+    width: 140%;
+    cursor: none;
+}
 }
   
   

@@ -359,6 +359,7 @@ transform: rotate(180deg);
 .play
 {
     cursor: pointer;
+    animation: infinite 2s playanimation;
     
 }
 .play span
@@ -1071,12 +1072,12 @@ footer .col-4 img
 .animacion
 {
     opacity: 0;
-    transition: all 0.5s;
+    transition: all 1s;
 }
 
 .animacionMostraArriba
 {
-    animation: Mostrararriba 1s;
+    animation: Mostrararriba 1.5s;
 }
 @keyframes Mostrararriba
 {
@@ -1087,6 +1088,22 @@ footer .col-4 img
     100%
     {
         transform: translateY(0px);
+    }
+}
+
+@keyframes playanimation
+{
+    0%
+    {
+        
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%
+    {
+        transform: scale(1);
     }
 }
 /*Fin*/

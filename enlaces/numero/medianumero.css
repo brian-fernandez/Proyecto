@@ -90,6 +90,16 @@ input[type=submit]:hover
    
    
 }
+
+.row1 {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.row1 .col-1 {
+    margin: 10px;
+    width: 100%;
+}
 }
 
 
@@ -101,6 +111,12 @@ input[type=submit]:hover
 
 
 @media screen and (max-width: 800px) {
+
+
+    .row1 .col-1 .card p {
+        letter-spacing: 2px;
+        font-size: 0.8em;
+    }
 
     .buttomtop
     {

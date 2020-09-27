@@ -39,12 +39,7 @@ font-family: 'Poppins', sans-serif;
 .contenedor-tiempo
 {
     display: flex;
-    position: fixed;
-    background-color: white;
-    z-index: 100000;
-    width: 100%;
-    border-radius: 0px 0px 30px 30px;
-    padding: 5px;
+    
     
 }
 

@@ -12,6 +12,12 @@ body::-webkit-scrollbar-thumb
     
 }
 
+*::selection {
+    background: black;
+    color: white;
+    
+}
+
 a { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 
 *

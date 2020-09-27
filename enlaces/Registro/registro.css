@@ -23,6 +23,12 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+*::selection {
+    background: black;
+    color: white;
+    
+}
+
 /* -- seccion del header  */
 
 .buttomtop {
@@ -565,7 +571,7 @@ select
 
 .boton:hover
 {
-color: #0984e3;
+color: white;
 background-color: rgba(0, 0, 0, 0.84);
 }
 

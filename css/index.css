@@ -258,8 +258,23 @@ transform: rotate(180deg);
     text-shadow: 0px 0px 11px rgb(0,0,0,0.1);
     text-align: center;
     width: 100%;
+    animation: 2s forwards movimiento;
     
 
+}
+@keyframes movimiento
+
+{
+    0%
+    {
+        transform: translateX(-500px);
+        opacity: 0;
+
+    }
+    100%
+    {
+        transform: translateX(0px);
+    }
 }
 .container span 
 {
@@ -1050,3 +1065,12 @@ footer .col-4 img
 
 
 /* fin de footer*/
+
+
+/*Animcacion opacity*/
+.animacion
+{
+    opacity: 0;
+    transition: all 0.5s;
+}
+/*Fin*/

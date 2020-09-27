@@ -24,7 +24,7 @@
 var interval = setInterval(clock, 1000);
 
 
-var month = new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")+1;
+var month = new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
 var day = new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado");
 var d = new Date();
 var dia_sem=day[d.getDay()];

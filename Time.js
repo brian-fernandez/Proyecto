@@ -28,7 +28,7 @@
   var day = new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado");
   var d = new Date();
   var dia_sem=day[d.getDay()];
-  var dia=d.getDay();
+  var dia=d.getDate();
   var mes=month[d.getMonth()];
   var años = d.getFullYear();
   document.write(dia_sem+" / "+dia+" / "+mes+" / "+años);
